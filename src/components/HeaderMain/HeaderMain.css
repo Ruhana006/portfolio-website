@@ -1,0 +1,16 @@
+.header-container{
+    position: relative;
+    background: url(../../images/homeBg.jpg) no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height:90vh;   
+}
+.info{
+    flex-direction: column;
+}
+.typed-text{
+    font-size: 40px;
+    color: darkcyan;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
