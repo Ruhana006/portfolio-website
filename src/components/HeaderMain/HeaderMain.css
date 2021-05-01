@@ -8,6 +8,11 @@
 .info{
     flex-direction: column;
 }
+.header-text{
+   position: absolute;
+   top: 36%;
+
+}
 .typed-text{
     font-size: 40px;
     color: darkcyan;

@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About/About';
 import HeaderMain from './components/HeaderMain/HeaderMain';
 
 import HomeNavbar from './components/HomeNavbar/HomeNavbar';
@@ -9,6 +10,7 @@ function App() {
     <div >
       <HomeNavbar></HomeNavbar>
       <HeaderMain/>
+      <About/>
     </div>
   );
 }
