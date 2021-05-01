@@ -15,7 +15,20 @@
 }
 .typed-text{
     font-size: 40px;
-    color: darkcyan;
+    color:white;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+}
+.custom-btn , .download-btn{
+    background-color:black;
+    color: rgb(15, 198, 198);
+    padding: 10px 29px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.custom-btn:hover ,.download-btn:hover{
+    background-color: rgb(9, 162, 162);
+    color: black;
+    width: 35%;
 }
