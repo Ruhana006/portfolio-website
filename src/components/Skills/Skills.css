@@ -6,6 +6,7 @@
     font-style:  'Roboto', sans-serif;
     padding: 2px;
 }
+
 .bar{
     display: block;
     height: 6px;
@@ -21,40 +22,58 @@
 }
 .html5{
     width: 79%;
-    animation: duration 3s;
+    animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
 
 }
 .css3{
     width: 70%;
-    animation: duration 3s;
+    animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
 }
 .bootstrap{
     width: 90%;
-    animation: duration 3s;
+    animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
 }
 .mern{
     width: 40%;
-    animation: duration 3s;
+    animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
 }
 .js{
     width: 65%;
-    animation: duration 3s;
+    animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
 }
 .react{
    width: 82%;
-   animation: duration 3s;
+   animation: duration 4s;
     animation-delay: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 4;
+}
+.python{
+    width: 37%;
+    animation: duration 4s;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
+}
+.git{
+    width: 58%;
+    animation: duration 4s;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
+}
+.firebase{
+    width: 55%;
+    animation: duration 4s;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
 }
 @keyframes duration {
     0%{
@@ -62,5 +81,25 @@
     }
 }
 .icon{
-    color:darkcyan
+    color:darkcyan;
+}
+.icon:hover{
+    z-index: .75;
+    transform: scale(.85);
+}
+.row .skill-box{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-box{
+    padding: 10px 10px;
+
+}
+.skill-box:hover{
+    z-index: .75;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px 2px rgb(102, 156, 141);
+    color: darkcyan;
 }

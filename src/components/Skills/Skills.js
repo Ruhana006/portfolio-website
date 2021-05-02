@@ -1,4 +1,5 @@
-import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
+import { faConnectdevelop } from '@fortawesome/free-brands-svg-icons';
+import { faClock, faHandPointRight, faLaptopCode, faSwatchbook, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Skills.css'
@@ -24,20 +25,46 @@ const Skills = () => {
                             <h4>JavaSrcipt</h4><span className="bar"><span className="js"></span></span>
                         </li>
                         <li>
+                            <h4>Phython</h4><span className="bar"><span className="python"></span></span>
+                        </li>
+                        <li>
                             <h4>React.Js</h4><span className="bar"><span className="react"></span></span>
                         </li>
                         <li>
                             <h4>MERN Stack</h4><span className="bar"><span className="mern"></span></span>
                         </li>
+                        <li>
+                            <h4>Git</h4><span className="bar"><span className="git"></span></span>
+                        </li>
+                        <li>
+                            <h4>Firebase</h4><span className="bar"><span className="firebase"></span></span>
+                        </li>
                     </div>
                     <div className="col-md-6 col-sm-12 familiar" >
+                        <h1 className="text-center">Professional Skills</h1>
+                        <div className="container ps-2">
+                            <div className="row mb-3">
+                                <div className="col-md-4 skill-box ">
+                                    <li><FontAwesomeIcon size="3x" icon={faLaptopCode} /></li>
+                                    <h4 className="text-center m-2">Web Designing</h4>
+                                </div>
+                                <div className="col-md-4 skill-box">
+                                    <li><FontAwesomeIcon size="3x" icon={faConnectdevelop} /></li>
+                                    <h4 className="text-center m-2 ps-2"> Front-End Developer</h4>
+                                </div>
+                                <div className="col-md-4 skill-box">
+                                    <li><FontAwesomeIcon size="3x" icon={faClock} /></li>
+                                    <h4 className="text-center m-2 ps-2">Time Management</h4>
+                                </div>
+                            </div>
+                        </div>
                         <h1 className="text-center">Familiar With</h1>
                         <div className="ps-5">
-                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> React Native</h4></li>
-                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> Object Oriented Programmimg (OOP)</h4></li>
-                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> TypeScript</h4></li>
-                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> Material UI</h4></li>
-                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> SASS</h4></li>
+                            <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight} /> React Native</h4></li>
+                            <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight} /> Object Oriented Programmimg (OOP)</h4></li>
+                            <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight} /> TypeScript</h4></li>
+                            <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight} /> Material UI</h4></li>
+                            <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight} /> SASS</h4></li>
                         </div>
                     </div>
                 </div>

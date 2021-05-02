@@ -7,6 +7,7 @@ import Particles from 'react-particles-js'
 import HomeNavbar from './components/HomeNavbar/HomeNavbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Projects/>
       <Blogs/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
