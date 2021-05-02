@@ -6,10 +6,10 @@ import './Skills.css'
 const Skills = () => {
     return (
         <div id="skills" className="mt-5">
-            <h1 className="text-center">My Skills</h1>
+            <h1 className="text-center display-5">My Skills</h1>
             <div className="container mt-5 mt-5">
                 <div className="row">
-                    <div className="col-md-6 skills">
+                    <div className="col-md-6 col-sm-12 skills">
                         <h1 className="text-center">Technical Skills</h1>
                         <li>
                             <h4>HTML5</h4><span className="bar"><span className="html5"></span></span>
@@ -30,14 +30,14 @@ const Skills = () => {
                             <h4>MERN Stack</h4><span className="bar"><span className="mern"></span></span>
                         </li>
                     </div>
-                    <div className="col-md-6  familiar" >
+                    <div className="col-md-6 col-sm-12 familiar" >
                         <h1 className="text-center">Familiar With</h1>
                         <div className="ps-5">
-                        <li><h4><FontAwesomeIcon icon={faHandPointRight}/> React Native</h4></li>
-                        <li><h4><FontAwesomeIcon icon={faHandPointRight}/> Object Oriented Programmimg (OOP)</h4></li>
-                        <li><h4><FontAwesomeIcon icon={faHandPointRight}/> TypeScript</h4></li>
-                        <li><h4><FontAwesomeIcon icon={faHandPointRight}/> Material UI</h4></li>
-                        <li><h4><FontAwesomeIcon icon={faHandPointRight}/> SASS</h4></li>
+                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> React Native</h4></li>
+                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> Object Oriented Programmimg (OOP)</h4></li>
+                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> TypeScript</h4></li>
+                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> Material UI</h4></li>
+                        <li><h4><FontAwesomeIcon className="icon" icon={faHandPointRight}/> SASS</h4></li>
                         </div>
                     </div>
                 </div>

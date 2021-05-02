@@ -3,6 +3,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
 .nav-text{
     font-family: 'Roboto', sans-serif;
     font-size: 19px;

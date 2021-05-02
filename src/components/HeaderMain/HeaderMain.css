@@ -3,15 +3,14 @@
     background: url(../../images/homeBg.jpg) no-repeat;
     background-size: cover;
     background-position:center ;
-    height:90vh;   
+    height:90vh;
+    
 }
 .info{
+    position: absolute;
     flex-direction: column;
-}
-.header-text{
-   position: absolute;
-   top: 36%;
-
+    z-index: 1;
+    top: 36%;
 }
 .typed-text{
     font-size: 40px;
@@ -19,7 +18,7 @@
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
-.custom-btn , .download-btn{
+ .download-btn{
     background-color:black;
     color: rgb(15, 198, 198);
     padding: 10px 29px;
@@ -27,8 +26,9 @@
     font-weight: 800;
     font-size: 18px;
 }
-.custom-btn:hover ,.download-btn:hover{
+.download-btn:hover{
     background-color: rgb(9, 162, 162);
     color: black;
     width: 35%;
+    z-index: 2;
 }
