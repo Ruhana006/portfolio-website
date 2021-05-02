@@ -2,3 +2,34 @@
     color: rgb(8, 166, 166);
     font-weight: 900;
 }
+.image{
+    position: relative;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 118, 112, 0.703);
+    color: white;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 5px;
+}
+.img-overlay:hover{
+    opacity: 1;
+    overflow: hidden;
+}
+.img-title{
+    transform: translateY(30px);
+    transition: transform 0.25s;
+}
+.img-overlay:hover .img-title{
+   transform: translateY(0);
+}

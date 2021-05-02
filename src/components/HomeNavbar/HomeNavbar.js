@@ -1,3 +1,5 @@
+import { faGrinWink } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './HomeNavbar.css'
 const HomeNavbar = () => {
@@ -5,7 +7,8 @@ const HomeNavbar = () => {
         <div>
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
-                    <a class="navbar-brand " href="#"><span style={{backgroundColor:'darkcyan',padding:'7px',borderRadius:'5px'}}>R</span>UHANA</a>
+                    <a class="navbar-brand " href="#"><FontAwesomeIcon style={{color:'goldenrod'}} icon={faGrinWink}/>
+                    RUHANA</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

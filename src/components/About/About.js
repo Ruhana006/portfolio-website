@@ -2,7 +2,7 @@ import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import myPic from '../../images/me2.png'
+import myPic from '../../images/me1.png'
 const About = () => {
     return (
         <div id="about" className="container mt-5 mb-5">

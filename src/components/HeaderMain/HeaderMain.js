@@ -6,7 +6,7 @@ import { faDownload, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const HeaderMain = () => {
     return (
-        <div className="header-container">
+        <div id="home" className="header-container">
             <div className="container info">
                 <div className="row d-flex align-items-center justify-content-center">
                    <div className="col-md-7">

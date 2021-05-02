@@ -20,14 +20,14 @@
     background-color: rgb(10, 162, 162);
 }
 .html5{
-    width: 95%;
+    width: 79%;
     animation: duration 3s;
     animation-delay: 5s;
     animation-iteration-count: 3;
 
 }
 .css3{
-    width: 90%;
+    width: 70%;
     animation: duration 3s;
     animation-delay: 5s;
     animation-iteration-count: 3;
@@ -45,13 +45,13 @@
     animation-iteration-count: 3;
 }
 .js{
-    width: 70%;
+    width: 65%;
     animation: duration 3s;
     animation-delay: 5s;
     animation-iteration-count: 3;
 }
 .react{
-   width: 80%;
+   width: 82%;
    animation: duration 3s;
     animation-delay: 5s;
     animation-iteration-count: 3;
