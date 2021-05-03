@@ -13,7 +13,7 @@ const HeaderMain = () => {
                        <h1 style={{color:'darkcyan', fontWeight:'900'}} className="display-4">I'm Ruhana Binte Karim</h1>
                        <Typed className="typed-text" strings={['Front-End Developer','Web Designer','React Developer']} typeSpeed={40} backSpeed={60} loop></Typed>
                        <br/>
-                       <a href="https://drive.google.com/uc?export=download&amp;id=1l8cJ3Ku46pSaiZpgi57Bi9e8n-56tTnb" target="_blank" type="button"  className="btn download-btn"><FontAwesomeIcon icon={faDownload}/>Download My Resume</a> 
+                       <a href="https://drive.google.com/uc?export=download&amp;id=1bObpVYa_-4E8umRpEqjxNeiLQBVW-Uql" target="_blank" type="button"  className="btn download-btn"><FontAwesomeIcon icon={faDownload}/>Download My Resume</a> 
                    </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@ const About = () => {
                             <a className="ps-3" href="https://www.instagram.com/___rity006___/?hl=en" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon" size="2x" /></a>
                             <br />
                             <br />
-                            <a className="ps-5" href="https://drive.google.com/uc?export=download&amp;id=1l8cJ3Ku46pSaiZpgi57Bi9e8n-56tTnb" target="_blank" type="button" className="btn download-btn"><FontAwesomeIcon icon={faDownload} />Download My Resume</a>
+                            <a className="ps-5" href="https://drive.google.com/uc?export=download&amp;id=1bObpVYa_-4E8umRpEqjxNeiLQBVW-Uql" target="_blank" type="button" className="btn download-btn"><FontAwesomeIcon icon={faDownload} />Download My Resume</a>
                         </div>
                     </div>
                 </div>
