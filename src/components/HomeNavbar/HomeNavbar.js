@@ -8,7 +8,7 @@ const HomeNavbar = () => {
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
                     <a class="navbar-brand " href="#"><FontAwesomeIcon style={{color:'goldenrod'}} icon={faGrinWink}/>
-                    RUHANA</a>
+                    <span style={{color:'darkcyan', fontWeight:'900'}}>RUHANA</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

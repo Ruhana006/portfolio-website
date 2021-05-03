@@ -14,7 +14,7 @@ import p4 from '../../images/p4.jpg'
 const Projects = () => {
     return (
         <div id="projects" className="mt-5 mb-5">
-            <h1 className="text-center display-5 mb-5 mt-5">My Recent Projects</h1>
+            <h1 style={{ color: 'darkcyan', fontWeight: '900' }} className="text-center display-5 mb-5 mt-5">My Recent Projects</h1>
             <div className="container mt-5 mb-5">
                 <div className="row d-flex align-items-center justify-content-center" >
                     <div className="col-md-5 col-sm-12 col-12 image">

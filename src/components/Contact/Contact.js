@@ -17,7 +17,7 @@ const Contact = () => {
     }
     return (
         <div id="contact">
-            <h1 className="text-center display-5">Keep In Touch</h1>
+            <h1 style={{ color: 'darkcyan', fontWeight: '900' }} className="text-center display-5">Keep In Touch</h1>
             <div>
                 <div className="container mt-5 mb-5">
                     <form onSubmit={sendEmail}>
@@ -42,13 +42,13 @@ const Contact = () => {
                             <div className="col-md-6 col-sm-12 ps-5">
                                 <div className="row">
                                     <div className="col-md-6 col-sm-12">
-                                        <h2>Contact:</h2>
+                                        <h2 style={{ fontWeight: '900' }}>Contact:</h2>
                                         <h5>+8801775215552</h5>
-                                        <h2>Address:</h2>
+                                        <h2 style={{ fontWeight: '900' }}>Address:</h2>
                                         <h5>2 No. Navy Gate, Khalishpur, Khulna, Bangladesh</h5>
                                     </div>
                                     <div className="col-md-6 col-sm-12">
-                                        <h2>Email:</h2>
+                                        <h2 style={{ fontWeight: '900' }}>Email:</h2>
                                         <h5>ritykarim33616@gmail.com</h5>
                                         <h2>Social Links:</h2>
                                         <a href="https://www.linkedin.com/in/ruhana-binte-karim/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon" size="2x" /></a>
